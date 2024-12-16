@@ -1,0 +1,6 @@
+services:
+  biotico-cl:
+    build: .
+    ports:
+      - "3000:3000"
+    restart: ${RESTART_POLICY}
